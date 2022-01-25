@@ -4,7 +4,7 @@
 //     });
 // }
 
-let double = (arr) => { return arr.map((val) => { return val * 2 }) }
+let double = (arr) => arr.map((val) => val * 2)
 
 
 
@@ -21,4 +21,4 @@ let double = (arr) => { return arr.map((val) => { return val * 2 }) }
 
 
 
-let squareAndFindEvens = (numbers) => { return numbers.map((n) => n ** 2).filter((s) => s % 2 === 0) }
+let squareAndFindEvens = (numbers) => numbers.map((n) => n ** 2).filter((s) => s % 2 === 0) 
